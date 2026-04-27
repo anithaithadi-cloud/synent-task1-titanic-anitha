@@ -1,46 +1,52 @@
 # 🚀 Titanic Data Cleaning & Preprocessing
 
 ## 📖 Problem Statement
-The goal of this project is to clean and preprocess the Titanic dataset to improve data quality and make it suitable for analysis and machine learning.
+The objective of this project is to clean and preprocess the Titanic dataset to improve data quality and prepare it for analysis.
 
 ---
 
 ## 📂 Dataset
-- Source: Kaggle Titanic Dataset  
-- File Used: `titanic.csv`  
-- Contains passenger details such as age, gender, class, and survival status  
+- Source: Kaggle Titanic Dataset
+- File: titanic.csv
+- Contains passenger details like age, gender, class, and survival status
 
 ---
 
-## ⚙️ Data Cleaning Steps Performed
+## ⚙️ Data Cleaning Steps
 
-### 1️⃣ Handling Missing Values
-- Filled missing values in **Age** column using median  
-- Filled missing values in **Embarked** column using mode  
+### 1. Handling Missing Values
+- Filled missing values in Age column using median
+- Filled missing values in Embarked column using mode
 
-👉 This ensures no null values affect analysis
+### 2. Removing Unnecessary Columns
+- Dropped Cabin column (too many missing values)
 
----
+### 3. Removing Duplicates
+- Removed duplicate records to ensure data consistency
 
-### 2️⃣ Removing Unnecessary Columns
-- Dropped **Cabin** column (if present)  
-👉 Reason: Too many missing values, not useful for analysis
-
----
-
-### 3️⃣ Removing Duplicate Records
-- Checked and removed duplicate rows  
-👉 Ensures data consistency and avoids bias
+### 4. Data Preparation
+- Cleaned and structured dataset for further analysis
 
 ---
 
-### 4️⃣ Data Standardization
-- Ensured correct data types  
-- Cleaned dataset for better readability  
+## 🖼️ Data Preview
+(Add image here later)
 
 ---
 
-### 5️⃣ Saving Cleaned Data
-- Final cleaned dataset saved as:
-```plaintext
-cleaned_titanic.csv
+## ✅ Output
+- Clean dataset saved as cleaned_titanic.csv
+- Data ready for analysis and modeling
+
+---
+
+## 💡 Key Learnings
+- Importance of data cleaning
+- Handling missing values effectively
+- Preparing data for machine learning
+
+---
+
+## 🛠️ Tools Used
+- Python
+- Pandas
