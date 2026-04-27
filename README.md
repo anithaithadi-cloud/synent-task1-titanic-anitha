@@ -50,3 +50,15 @@ The objective of this project is to clean and preprocess the Titanic dataset to 
 ## 🛠️ Tools Used
 - Python
 - Pandas
+
+---
+## 📊 Visualizations
+
+### Survival Count
+![Survival](survival_count.png)
+
+### Gender vs Survival
+![Gender](gender_survival.png)
+
+### Passenger Class Distribution
+![Class](class_distribution.png)
